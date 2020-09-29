@@ -77,10 +77,12 @@ img {
 }
 .header .address-list-header {
   display: flex;
+  align-items: center;
 }
 
 .navigation-list {
   display: flex;
+  align-items: center;
 }
 
 .logo-color-header {
@@ -121,6 +123,27 @@ img {
 }
 .header .address-list-link-header:not(:last-child) {
   margin-right: 50px;
+  display: flex;
+}
+.envelope::before {
+  display: inline-flex;
+  content: '';
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  background-image: url(../images/header-icon/envelope.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mobile::before {
+  display: inline-flex;
+  content: '';
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
+  background-image: url(../images/header-icon/smartphone.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* ======End Header====== */
@@ -133,11 +156,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 1)
-  );
-  background-image: url('../images/hero/hero-img.jpg');
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/hero/hero-img.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -174,6 +197,7 @@ img {
   line-height: 1.875;
   color: #ffffff;
   padding: 10px 32px;
+  cursor: pointer;
 
   min-width: 200px;
   height: 50px;
@@ -200,6 +224,35 @@ img {
 
   color: var(--title-color);
 }
+
+.qualities-list-heading::before {
+  display: block;
+  content: '';
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.attention::before {
+  background-image: url(../images/qualities/satellite.svg);
+}
+
+.punctuality::before {
+  background-image: url(../images/qualities/clock.svg);
+}
+
+.planning::before {
+  background-image: url(../images/qualities/diagram.svg);
+}
+
+.technologies::before {
+  background-image: url(../images/qualities/astronaut.svg);
+}
+
 .qualities-list-text {
   font-weight: 400;
   font-size: 14px;
@@ -297,6 +350,35 @@ img {
 }
 
 /* =================End Our team==================== */
+
+/* ==================Customers====================== */
+.customers-container {
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.customers-title {
+  margin-bottom: 50px;
+}
+
+.customers-list-item {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 24px 64px;
+}
+
+.customers-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.customers-list {
+  display: flex;
+  flex-wrap: nowrap;
+}
+/* ==================End Customers====================== */
 
 /* ===============Footer============= */
 
