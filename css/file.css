@@ -342,7 +342,29 @@ img {
 }
 
 .team-list-block {
-  padding: 30px 59px;
+  padding: 30px 32px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+}
+
+.social-links-list {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-top: 10px;
+}
+
+.social-links-item {
+  border: 1px solid #000;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+}
+.social-links-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .team-list-names {
@@ -376,6 +398,7 @@ img {
 
 .customers-list {
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
 }
 /* ==================End Customers====================== */
@@ -387,6 +410,7 @@ img {
 }
 
 .footer-section {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -396,10 +420,7 @@ img {
   font-style: normal;
   font-size: 14px;
   line-height: 1.714;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 
@@ -429,6 +450,30 @@ img {
 
 .address-list {
   margin-top: 20px;
+  margin-right: 70px;
+}
+
+.loin-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.join-list {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.loin-list-item {
+  padding: 12px;
+  height: 44px;
+  width: 44px;
+  background-color: rgb(51, 51, 51);
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 /* ===============End Footer============= */
