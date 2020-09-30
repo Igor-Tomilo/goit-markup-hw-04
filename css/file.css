@@ -1,9 +1,9 @@
 :root {
-  --accent-color: #2094f3;
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --title-color: #212121;
   --subtitle-color: #757575;
+  --accent-color: #2094f3;
 }
 
 body {
@@ -349,58 +349,22 @@ img {
   background-color: #fff;
 }
 
-.social-links-list {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  margin-top: 10px;
-}
-
-.social-links-item {
-  border: 1px solid #000;
-  width: 44px;
-  height: 44px;
-  padding: 12px;
-  border-radius: 50%;
-}
-.social-links-item:not(:last-child) {
-  margin-right: 10px;
-}
-
 .team-list-names {
   margin-bottom: 10px;
+}
+
+.social-link-link::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #000;
 }
 
 /* =================End Our team==================== */
 
 /* ==================Customers====================== */
-.customers-container {
-  text-align: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
-.customers-title {
-  margin-bottom: 50px;
-}
-
-.customers-list-item {
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  padding: 24px 64px;
-}
-
-.customers-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.customers-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-}
 /* ==================End Customers====================== */
 
 /* ===============Footer============= */
@@ -467,13 +431,42 @@ img {
   justify-content: space-between;
 }
 
-.loin-list-item {
-  padding: 12px;
+.join-list-links {
+  display: flex;
+  justify-content: center;
   height: 44px;
   width: 44px;
-  background-color: rgb(51, 51, 51);
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   margin-right: 10px;
+}
+
+.join-list-links:hover {
+  background-color: var(--accent-color);
+}
+
+.social-join-instagram {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.social-join-twitter {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.social-join-facebook {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+.social-join-linkedin {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
 }
 
 /* ===============End Footer============= */
@@ -563,6 +556,11 @@ img {
 .portfolio-nav-item:not(:nth-child(3n + 3)) {
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.portfolio-card {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-secondary-navigation-section {
