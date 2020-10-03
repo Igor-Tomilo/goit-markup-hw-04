@@ -200,8 +200,8 @@ img {
 
 .button-services:hover,
 .button-services:focus {
-  background: #ffffff;
-  color: #2196f3;
+  background: #188ce8;
+  color: #fff;
 }
 /* =========End Hero======== */
 
@@ -525,7 +525,7 @@ img {
 /* ============HTML Porfolio============= */
 
 .portfolio-section {
-  padding-top: 57px;
+  padding-top: 94px;
 }
 
 .portfolio-navigations-list {
