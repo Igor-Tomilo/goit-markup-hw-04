@@ -302,11 +302,14 @@ img {
 
 /* =================Our team==================== */
 
+.team {
+  background: rgb(245, 244, 250);
+}
+
 .team-section {
   padding-top: 94px;
   padding-bottom: 94px;
   text-align: center;
-  background: rgb(245, 244, 250);
 }
 
 .team-list-item {
