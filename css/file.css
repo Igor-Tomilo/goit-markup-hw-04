@@ -116,6 +116,10 @@ img {
   margin-right: 50px;
 }
 
+.address-svg {
+  margin-right: 10px;
+}
+
 .header .address {
   margin-left: auto;
 }
@@ -124,13 +128,15 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 25px;
 }
 
 .address-link:hover .address-svg {
   --color1: var(--accent-color);
   --color2: var(--accent-color);
+}
+
+.address-list-link-header:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* ======End Header====== */
@@ -167,7 +173,6 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
-
   width: 696px;
   height: 120px;
 
@@ -183,6 +188,7 @@ img {
   color: #ffffff;
   padding: 10px 32px;
   cursor: pointer;
+  border: none;
 
   min-width: 200px;
   height: 50px;
@@ -220,6 +226,7 @@ img {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-size: 70px;
 }
 
 .attention::before {
