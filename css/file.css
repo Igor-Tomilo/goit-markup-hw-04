@@ -309,6 +309,13 @@ img {
   background: rgb(245, 244, 250);
 }
 
+.team-list-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
+}
+
 .team-list-names {
   font-weight: 500;
   font-size: 16px;
@@ -336,9 +343,7 @@ img {
 
 .team-list-block {
   padding: 30px 32px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  /* border-radius: 0px 0px 4px 4px; */
   background-color: #fff;
 }
 
@@ -461,6 +466,7 @@ img {
 
 .loin-title {
   font-style: normal;
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
