@@ -529,7 +529,8 @@ img {
   margin-right: 8px;
 }
 
-.portfolio-navigations-link {
+.portfolio-navigations-button {
+  display: inline-block;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -538,8 +539,6 @@ img {
   padding: 6px 22px;
   border: none;
   cursor: pointer;
-  /* width: 73px;
-  height: 38px; */
 
   background: #f5f4fa;
   border-radius: 4px;
@@ -567,8 +566,8 @@ img {
   color: var(--subtitle-color);
 }
 
-.portfolio-navigations-link:hover,
-.portfolio-navigations-link:focus {
+.portfolio-navigations-button:hover,
+.portfolio-navigations-button:focus {
   color: #fff;
   background-color: var(--accent-color);
 }
